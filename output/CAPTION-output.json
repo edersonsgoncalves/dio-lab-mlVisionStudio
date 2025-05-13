@@ -1,0 +1,14 @@
+{
+  "apim-request-id": "3755e4ed-e20b-426c-bfa4-64bd505d255b",
+  "content-length": "176",
+  "content-type": "application/json; charset=utf-8",
+  "modelVersion": "2023-10-01",
+  "captionResult": {
+    "text": "a crowd of people watching a man playing a piano",
+    "confidence": 0.7209030389785767
+  },
+  "metadata": {
+    "width": 1096,
+    "height": 686
+  }
+}
