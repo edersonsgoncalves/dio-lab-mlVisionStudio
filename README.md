@@ -1,17 +1,18 @@
+# Reconhecimento Facial e Transformação de Imagens em Dados no Azure ML
 Este repositório busca documentar um teste feito dentro do Visual Studio utilizando Azure Machine Learning para identificação de rostos, textos e descrição de imagens e os passos executados.
   
 ## Passos Iniciais
 Acesso ao Portal Azure (www.portal.azure.com);
-![[imgs/IMML-01.png]]
+<img src="imgs/IMML-01.png">
 
 Criação do Recurso
-![[Ed/Cursos/AI-900/Bootcamp IA-900/LAB-3/imgs/IMML-02.png]]
+<img src="Ed/Cursos/AI-900/Bootcamp IA-900/LAB-3/imgs/IMML-02.png">
 
 Acesso ao Portal MS Vision ([portal.vision.cognitive.azure.com](https://portal.vision.cognitive.azure.com/)) e exibição dos recursos
-![[Ed/Cursos/AI-900/Bootcamp IA-900/LAB-3/imgs/IMML-03.png]]
+<img src="Ed/Cursos/AI-900/Bootcamp IA-900/LAB-3/imgs/IMML-03.png">
 
 Seleção do recurso como padrão
-![[Ed/Cursos/AI-900/Bootcamp IA-900/LAB-3/imgs/IMML-04.png]]
+<img src="Ed/Cursos/AI-900/Bootcamp IA-900/LAB-3/imgs/IMML-04.png">
 
 ## Detecção de Rostos
 A ferramenta de detecção de rostos é bem utilizada e o código consegue delimitar bem os rostos. 
@@ -19,7 +20,7 @@ A ferramenta de detecção de rostos é bem utilizada e o código consegue delim
 
 No exemplo foi utilizado uma foto (licença gratuita - https://br.freepik.com/fotos-vetores-gratis/5-pessoas) para detecção dos rostos.
 
-![[Ed/Cursos/AI-900/Bootcamp IA-900/LAB-3/imgs/IMML-05.png]]
+<img src="Ed/Cursos/AI-900/Bootcamp IA-900/LAB-3/imgs/IMML-05.png">
 
 A seguir está a [foto base](inputs/FACE-input.jpg) e a [resposta](outputs/FACE-output.json) em JSON.
 
@@ -28,7 +29,7 @@ A extração de texto a partir de imagem possui grandes usos, como leitura autom
 
 No exemplo, foi utilizado uma foto de parte de um cupom fiscal. Um uso seria uma aplicação em que se tira uma foto do cupom fiscal e esses dados são inseridos no banco de dados para usos diversos.
 
-![[Ed/Cursos/AI-900/Bootcamp IA-900/LAB-3/imgs/IMML-06.png]]
+<img src="Ed/Cursos/AI-900/Bootcamp IA-900/LAB-3/imgs/IMML-06.png">
 
 A seguir está a [foto base](inputs/OCR-input.jpg) e a [resposta](outputs/OCR-output.json) em JSON.
 
@@ -38,7 +39,7 @@ Pode ser utilizado também para geração de palavras chave otimizadas para SEO,
 
 No exemplo, foi utilizado uma foto de um show em que a performance acontece no centro, em um piano, e o publico se encontra no entorno.
 
-![[Ed/Cursos/AI-900/Bootcamp IA-900/LAB-3/imgs/IMML-07.png]]
+<img src="Ed/Cursos/AI-900/Bootcamp IA-900/LAB-3/imgs/IMML-07.png">
 
 A seguir está a [foto base](inputs/CAPTION-input.jpg) (G1 - [Lady Gaga no Rio: veja FOTOS do show](https://g1.globo.com/rj/rio-de-janeiro/show-da-lady-gaga/noticia/2025/05/03/show-de-lady-gaga-fotos.ghtml)) e a [resposta](outputs/CAPTION-output.json) em JSON.
 
